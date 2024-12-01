@@ -1,0 +1,87 @@
+/* Footer Container */
+.footer-container {
+    background-color: #f0f9f9;
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #dcdcdc;
+    margin-bottom: 6rem;
+  }
+  
+  /* Social Media Section */
+  .social-media-section {
+    margin-bottom: 15px;
+  }
+  
+  .follow-us {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .icon {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #003366; /* Dark blue */
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .icon:hover {
+    background-color: #005580; /* Slightly lighter blue */
+  }
+  
+  /* Policies Section */
+  .policies-section {
+    font-size: 0.95rem;
+    color: #555;
+  }
+  
+  .policy-link {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: 500;
+    margin: 0 8px;
+  }
+  
+  .policy-link:hover {
+    text-decoration: underline;
+  }
+  
+  .divider {
+    color: #888;
+    margin: 0 5px;
+  }
+  
+  /* Responsive Styling */
+  @media (max-width: 768px) {
+    .social-icons {
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+  
+    .icon {
+      width: 35px;
+      height: 35px;
+      font-size: 1rem;
+    }
+  
+    .policies-section {
+      font-size: 0.85rem;
+      margin-top: 10px;
+    }
+  }
+  

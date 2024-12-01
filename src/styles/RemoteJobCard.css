@@ -1,0 +1,139 @@
+/* Container styles */
+.Remote-jobs-container {
+    padding: 10px;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+  }
+  
+  /* Heading style */
+  .heading {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Large Screen Grid Layout */
+  .jobs-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .job-card {
+    border: 1px solid #dcdcdc;
+    border-radius: 8px;
+    padding: 16px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Shared Job Card Styles */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+  }
+  
+  .job-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #1a1a1a;
+  }
+  
+  .job-type {
+    padding: 4px 8px;
+    border-radius: 16px;
+    font-size: 0.85rem;
+    font-weight: bold;
+    text-transform: capitalize;
+  }
+  
+  .job-type.remote {
+    background-color: #00c4cc;
+    color: #fff;
+  }
+  
+  .job-type.in-office {
+    background-color: #ffd700;
+    color: #000;
+  }
+  
+  .company-name {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 16px;
+  }
+  
+  .job-details {
+    margin-bottom: 16px;
+  }
+  
+  .detail {
+    font-size: 0.9rem;
+    color: #777;
+    margin: 4px 0;
+  }
+  
+  .detail i {
+    margin-right: 8px;
+    color: #007bff;
+  }
+  
+  .apply-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #00c4cc;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .apply-button:hover {
+    background-color: #009b9e;
+  }
+  
+  /* Carousel for Small Screens */
+  .carousel {
+    display: none;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .nav-button {
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+    color: #007bff;
+    cursor: pointer;
+    padding: 0 10px;
+  }
+  
+  .nav-button:hover {
+    color: #0056b3;
+  }
+  
+  /* Media Query: Show Carousel for Small Screens */
+  @media (max-width: 768px) {
+    .jobs-grid {
+      display: none;
+    }
+  
+    .carousel {
+      display: flex;
+    }
+  
+    .job-card {
+      width: 90%;
+      margin: 0 auto;
+      text-align: center;
+    }
+  }
+  

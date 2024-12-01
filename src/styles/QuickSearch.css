@@ -1,0 +1,37 @@
+.quick-search {
+    background-color: #b2ebf2;
+    padding: 1.5rem 1rem;
+    border-radius: 10px;
+    text-align: center;
+    margin: 1rem auto;
+    margin-bottom: 3rem;
+    width: 90%;
+    max-width: 500px;
+  }
+  
+  .quick-search h2 {
+    font-size: 1.25rem;
+    color: #00796b;
+    margin-bottom: 1rem;
+  }
+  
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+  
+  .tag {
+    background-color: #e0f7fa;
+    color: #00796b;
+    padding: 0.5rem;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    cursor: pointer;
+  }
+  
+  .tag:hover {
+    background-color: #b2dfdb;
+  }
+  
